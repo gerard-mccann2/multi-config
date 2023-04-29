@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cypress": "^12.11.0"
+  },
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:open:dev:approach1": "npx cypress open --config-file cypress/config/dev.config.js",
+    "cy:open:stage:approach1": "npx cypress open --config-file cypress/config/stage.config.js",
+    "cy:open:dev:approach2": "npx cypress open --config-file cypress/settings/dev.env.json",
+    "cy:open:stage:approach2": "npx cypress open --config-file cypress/settings/stage.env.json"
+  }
+}
